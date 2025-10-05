@@ -9,6 +9,7 @@
     "check": "biome check --write",
     "dev": "rsbuild dev --open",
     "format": "biome format --write",
+    "prepreview": "pnpm build",
     "preview": "rsbuild preview",
     "svelte-check": "svelte-check --tsconfig ./tsconfig.json",
     "deploy": "gh-pages -d dist"
